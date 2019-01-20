@@ -81,7 +81,7 @@ In the example above, we created the variable w with the number 4 assigned to it
 
 Another way we could have reassigned w after performing some mathematical operation on it is to use built-in mathematical assignment operators. We could re-write the code above to be:
 
-```javacript
+```javascript
 let w = 4;
 w += 1;
 
