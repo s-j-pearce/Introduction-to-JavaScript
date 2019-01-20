@@ -134,6 +134,6 @@ console.log('I own a pet ' + myPet + '.');
 ```
 In the example above, we assigned the value 'armadillo' to the myPet variable. On the second line, the + operator is used to combine three strings: 'I own a pet', the value saved to myPet, and '.'. We log the result of this concatenation to the console as:
 
-```javascript
+```
 I own a pet armadillo.
 ```
