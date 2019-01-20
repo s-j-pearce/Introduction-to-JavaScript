@@ -13,7 +13,7 @@ Let's consider the example above:
 
 3. = is the assignment operator. It assigns the value ('Arya') to the variable (myName).
 
-4.'Arya' is the value assigned (=) to the variable myName. You can also say that the myName variable is initialized with a value of 'Arya'.
+4. 'Arya' is the value assigned (=) to the variable myName. You can also say that the myName variable is initialized with a value of 'Arya'.
 
 5. After the variable is declared, the string value 'Arya' is printed to the console by referencing the variable name: console.log(myName).
 
