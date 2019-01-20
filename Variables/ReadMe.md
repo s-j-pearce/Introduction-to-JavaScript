@@ -1,4 +1,5 @@
 # Variables:
+## Create a Variable: var
 
 ```javascript
 ar myName = 'Arya';
@@ -24,3 +25,29 @@ Let's consider the example above:
 * Variable names are case sensitive, so myName and myname would be different variables. It is bad practice to create two variables that have the same name using different cases.
 
 * Variable names cannot be the same as keywords.
+
+## Create a Variable: let
+
+The let keyword signals that the variable can be reassigned a different value. Take a look at the example:
+
+```javascript
+let meal = 'Enchiladas';
+console.log(meal); // Output: Enchiladas
+meal = 'Burrito';
+console.log(meal); // Output: Burrito
+```
+
+Another concept that we should be aware of when using let (and even var) is that we can declare a variable without assigning the variable a value. In such a case, the variable will be automatically initialized with a value of undefined:
+
+```javascript
+let price;
+console.log(price); // Output: undefined
+price = 350;
+console.log(price); // Output: 350
+```
+
+Notice in the example above:
+
+* If we don't assign a value to a variable declared using the let keyword, it automatically has a value of undefined.
+
+* We can reassign the value of the variable.
