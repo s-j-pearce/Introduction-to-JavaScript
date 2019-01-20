@@ -122,3 +122,18 @@ console.log(b); // Output: 19
 ```
 
 Just like the previous mathematical assignment operators (+=, -=, *=, /=), the variable's value is updated and assigned as the new value of that variable.
+
+## String Concatenation with Variables
+
+The + operator can be used to combine two string values even if those values are being stored in variables:
+
+```javascript
+let myPet = 'armadillo';
+console.log('I own a pet ' + myPet + '.'); 
+// Output: 'I own a pet armadillo.'
+```
+In the example above, we assigned the value 'armadillo' to the myPet variable. On the second line, the + operator is used to combine three strings: 'I own a pet', the value saved to myPet, and '.'. We log the result of this concatenation to the console as:
+
+```javascript
+I own a pet armadillo.
+```
