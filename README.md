@@ -1,5 +1,5 @@
 # Introduction-to-JavaScript
-## FizzBuzz explained
+## FizzBuzz:
 
 ```javascript
 for (var i=1; i <= 20; i++)
