@@ -155,3 +155,22 @@ Notice that:
 * When we interpolate `I own a pet ${myPet}.`, the output we print is the string: 'I own a pet armadillo.'
 
 One of the biggest benefits to using template literals is the readability of the code. Using template literals, you can more easily tell what the new string will be. You also don't have to worry about escaping double quotes or single quotes.
+
+## Typeof Operator
+
+While writing code, it can be useful to keep track of the data types of the variables in your program. If you need to check the data type of a variable's value, you can use the typeof operator.
+
+The typeofoperator checks the value to its right and returns, or passes back, a string of the data type.
+
+```javascript
+const unknown1 = 'foo';
+console.log(typeof unknown1); // Output: string
+
+const unknown2 = 10;
+console.log(typeof unknown2); // Output: number
+
+const unknown3 = true; 
+console.log(typeof unknown3); // Output: boolean
+```
+
+Let's break down the first example. Since the value unknown1 is 'foo', a string, typeof unknown1 will return 'string'.
